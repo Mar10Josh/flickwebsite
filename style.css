@@ -1,0 +1,26 @@
+@font-face {
+    font-family: pixel;
+    src: url("Minecraft.ttf");
+}
+
+body {
+    background-color: black;
+}
+
+
+* {
+    font-family: pixel;
+    color: white;
+}
+
+
+.centered {
+    margin: auto; 
+    text-align: center;
+}
+.centered > img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+}
